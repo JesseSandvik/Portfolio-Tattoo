@@ -12,4 +12,9 @@ describe("HomePage", () => {
         const quoteText = screen.getByText("Imagination is the only weapon in the war with reality.");
         expect(quoteText).toBeInTheDocument();
     });
+    test("display navigation on homepage", () => {
+        render(<HomePage/>);
+        const currentPath = screen.getByRole("navigation");
+        expect(currentPath).toBeInTheDocument();
+    });
 })

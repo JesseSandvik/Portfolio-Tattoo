@@ -1,0 +1,14 @@
+[
+    {
+        "page": "home",
+        "path": "/"
+    },
+    {
+        "page": "recent",
+        "path": "/recent"
+    },
+    {
+        "page": "library",
+        "path": "/library"
+    }
+]
