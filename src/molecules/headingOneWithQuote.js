@@ -2,10 +2,10 @@ import HeadingOne from "../atoms/headingOne";
 import SmallQuote from "../atoms/smallQuote";
 
 
-const HeadingOneWithQuote = ({ pageHeading, quote }) => {
+const HeadingOneWithQuote = ({ quote, siteTitle }) => {
     return (
         <div>
-            <HeadingOne pageHeading={pageHeading}/>
+            <HeadingOne siteTitle={siteTitle}/>
             <SmallQuote quote={quote}/>
         </div>
     );

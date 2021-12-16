@@ -1,7 +1,7 @@
 
 
-const HeadingOne = ({ pageHeading }) => {
-    return <h1>{pageHeading}</h1>
+const HeadingOne = ({ siteTitle }) => {
+    return <h1>{siteTitle}</h1>
 }
 
 export default HeadingOne;
