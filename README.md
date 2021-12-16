@@ -1,12 +1,12 @@
-# WhiteRabbt Blog
+# Tattoo Portfolio Website
 
 ## Overview
-WhiteRabbt is a blog application.
+Web portfolio for a tattoo artist
 
 ## Installation
 Fork & clone this repository.|
 ----------------------------|
-cd blog-front-end|
+cd Portfolio-Tattoo|
 npm install|
 npm start|
 

@@ -1,5 +1,4 @@
 import NavigationLink from "../atoms/navigationLink";
-
 const routes = require("../routes/routes.json");
 
 const Navigation = () => {

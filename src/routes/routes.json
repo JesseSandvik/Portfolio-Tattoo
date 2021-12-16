@@ -4,11 +4,15 @@
         "path": "/"
     },
     {
-        "page": "recent",
-        "path": "/recent"
+        "page": "about the artist",
+        "path": "/about"
     },
     {
-        "page": "library",
-        "path": "/library"
+        "page": "portfolio",
+        "path": "/portfolio"
+    },
+    {
+        "page": "contact",
+        "path": "/contact"
     }
 ]

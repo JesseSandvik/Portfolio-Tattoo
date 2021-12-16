@@ -1,17 +1,19 @@
+import Footer from "../organisms/footer";
 import Header from "../organisms/header";
 import PageRoutes from "../routes/pageRoutes";
 
 const Layout = () => {
-    const siteTitleQuote = `"Imagination is the only weapon in the war with reality." - The Cheshire Cat`;
-    const siteTitle="White Rabbt.";
+    const siteTitle="Miss Tattoo Tara";
     return (
-        <section>
+        <>
             <Header
-                quote={siteTitleQuote}
                 siteTitle={siteTitle}
             />
-            <PageRoutes/>
-        </section>
+            <main>
+                <PageRoutes/>
+            </main>
+            <Footer />
+        </>
     );
 }
 

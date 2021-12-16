@@ -1,11 +1,10 @@
-import HeadingOneWithQuote from "../molecules/headingOneWithQuote";
+import HeadingOne from "../atoms/headingOne";
 import Navigation from "../molecules/navigation";
 
-const Header = ({ quote, siteTitle }) => {
+const Header = ({ siteTitle }) => {
     return (
         <header>
-            <HeadingOneWithQuote
-                quote={quote}
+            <HeadingOne
                 siteTitle={siteTitle}
             />
             <Navigation/>
